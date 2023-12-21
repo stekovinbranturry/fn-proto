@@ -14,16 +14,16 @@ export default () => {
           textAlign: 'center',
         }}
       >
-        使用 React 随便设计你的首页
+        接下来可以使用 React 随便设计你的首页
       </h1>
-      <img
+      {/* <img
         style={{
           display: 'block',
           margin: '0 auto',
         }}
         width={800}
         src="https://gw.alicdn.com/imgextra/i2/O1CN01mBMaqx1IkRdrqan4U_!!6000000000931-2-tps-4048-972.png"
-      />
+      /> */}
     </div>
   );
 };

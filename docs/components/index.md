@@ -110,6 +110,24 @@ nav:
         </ul>
       </li>
       <li>
+        fliggy-design-theme
+        <ul>
+          <li>index.less</li>
+        </ul>
+      </li>
+      <li>
+        fliggy-design-icon
+        <ul>
+          <li>index.ts</li>
+        </ul>
+      </li>
+      <li>
+        fliggy-design-i18n
+        <ul>
+          <li>index.ts</li>
+        </ul>
+      </li>
+      <li>
         dumi-theme-fliggy-design
         <ul>
           <li>index.ts</li>
@@ -119,12 +137,6 @@ nav:
         dumi-plugin-fliggy-design
         <ul>
           <li>index.ts</li>
-        </ul>
-      </li>
-      <li>
-        fliggy-design-theme
-        <ul>
-          <li>index.less</li>
         </ul>
       </li>
     </ul>
@@ -185,10 +197,6 @@ fliggy-design
 │   │   │       ├── index.test.tsx
 │   │   │       └── index.tsx
 │   │   └── index.ts
-│   ├── fliggy-design-dumi-theme
-│   │   └── index.ts
-│   ├── fliggy-design-dumi-plugin
-│   │   └── index.ts
 │   ├── fliggy-design-react
 │   │   ├── components
 │   │   │   └── Button
@@ -197,8 +205,16 @@ fliggy-design
 │   │   │       ├── index.test.tsx
 │   │   │       └── index.tsx
 │   │   └── index.ts
-│   └── fliggy-design-theme
-│       └── index.less
+│   │── fliggy-design-theme
+│   │   └── index.less
+│   │── fliggy-design-icon
+│   │   └── index.ts
+│   │── fliggy-design-i18n
+│   │   └── index.ts
+│   ├── dumi-theme-fliggy-design
+│   │   └── index.ts
+│   └── dumi-plugin-fliggy-design
+│       └── index.ts
 ├── public
 │   └── favicon.ico
 ├── .dumirc.ts

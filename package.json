@@ -9,10 +9,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc && vite build",
-    "build:watch": "tsc && vite build --watch",
+    "build": "dumi build",
     "dev": "dumi dev",
-    "docs:build": "dumi build",
     "doctor": "father doctor",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",

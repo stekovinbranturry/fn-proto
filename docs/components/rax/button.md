@@ -14,7 +14,7 @@ import { Button } from 'fliggy-design';
 
 export default () => (
   <div>
-    <Button style={{marginRight: '8px'}}>Primary</Button>
+    <Button style={{ marginRight: '8px' }}>Primary</Button>
     <Button type="secondary">Secondary</Button>
   </div>
 );
